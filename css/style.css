@@ -5,6 +5,11 @@ body {
     overflow: hidden;
     clear: both;
 }
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
 .nav {
     display: block;
     height: 190px;
@@ -25,6 +30,7 @@ body {
     background: #4285f4;
     background: -webkit-linear-gradient(top, #4387fd, #4683ea);
     margin-right: 30px;
+    text-align: center;
 }
 #signInLink {
     color: white;
@@ -46,14 +52,14 @@ a {
     color: rgb(107, 107, 107);
 }
 #logoImg {
-    width: 21.5%;
+    width: 27%;
     margin-bottom: 33px;
 }
 #searchBox {
     width: 600px;
     height: 39px;
     border: 1px solid #D9D9D9;
-    margin-bottom: 30px;
+    margin: auto auto 33px auto;
 }
 #search {
     float: left;
