@@ -8,19 +8,17 @@
 </head>
 
 <body>
-    <div class="nav">
+    <div class="header">
         <div class="menu">
-            <ul>
-                <li><a href="https://mail.google.com/mail/">Gmail</a></li>
-                <li><a href="https://www.google.com/imghp?hl=en&ei=LKedV7fjL4GMjQOW94jICw&ved=0EKouCAIoAQ">Images</a></li>
-                <li>
-                    <a href="https://www.google.com/intl/en/options/"><img src="https://github.com/handygecko/google-homepage/blob/master/img/menu.PNG?raw=true" /></a>
-                </li>
-                <li id="signin"><a id="signInLink" href="https://www.google.com/intl/en/options/">Sign in</a></li>
-            </ul>
+            <div class="nav"><a href="https://mail.google.com/mail/">Gmail</a></div>
+            <div class="nav"><a href="https://www.google.com/imghp?hl=en&ei=LKedV7fjL4GMjQOW94jICw&ved=0EKouCAIoAQ">Images</a></div>
+            <div class="nav">
+                <a href="https://www.google.com/intl/en/options/"><img id="menuImg" src="img/menu.PNG" /></a>
+            </div>
+            <div class="nav" id="signin"><a id="signInLink" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></div>
         </div>
     </div>
-    <div class="wrapper">
+    <div class="mainContent">
         <div class="logo">
             <img id="logoImg" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google-homepage" />
         </div>
@@ -29,7 +27,7 @@
                 <div id="hf"></div>
                 <div class="searchClass" id="searchBox">
                     <input type="text" id="search"></input>
-                    <img id="micImg" src="https://github.com/handygecko/google-homepage/blob/master/img/mic.PNG?raw=true" />
+                    <img id="micImg" src="img/mic.PNG" />
                 </div>
                 <div id="submitGrp">
                     <button type="button" name="googleSearch" id="googleSearch">Google Search</button>
@@ -41,16 +39,16 @@
     <div id="footer">
         <div class="footerMenu" id="lMenu">
             <ul>
-                <li><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
-                <li><a href="https://www.google.com/services/?fg=1">Business</a></li>
-                <li><a href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
+                <li><a class="fNav" href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+                <li><a class="fNav" href="https://www.google.com/services/?fg=1">Business</a></li>
+                <li><a class="fNav" href="https://www.google.com/intl/en/about.html?fg=1">About</a></li>
             </ul>
         </div>
         <div class="footerMenu" id="rMenu">
             <ul>
-                <li><a href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
-                <li><a href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
-                <li><a href="https://www.google.com/intl/en/options/">Settings</a></li>
+                <li><a class="fNav" href="https://www.google.com/intl/en/policies/privacy/?fg=1">Privacy</a></li>
+                <li><a class="fNav" href="https://www.google.com/intl/en/policies/terms/?fg=1">Terms</a></li>
+                <li><a class="fNav" href="https://www.google.com/intl/en/options/">Settings</a></li>
             </ul>
         </div>
     </div>
